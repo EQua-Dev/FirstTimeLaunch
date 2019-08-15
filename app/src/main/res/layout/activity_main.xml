@@ -4,7 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@drawable/background"
+    android:background="@drawable/sky_background_for_egoya"
     tools:context=".MainActivity">
 
     <androidx.viewpager.widget.ViewPager
@@ -31,9 +31,10 @@
         android:layout_height="50dp"
         android:layout_alignParentBottom="true"
         android:layout_marginBottom="22dp"
-        android:background="@drawable/background"
+        android:background="@drawable/sky_background_for_egoya"
         android:text="prev"
-        android:textColor="@color/colorWhite"
+        android:textStyle="bold"
+        android:textColor="#000"
         android:visibility="invisible" />
 
     <Button
@@ -44,7 +45,8 @@
         android:layout_alignParentBottom="true"
         android:layout_marginEnd="8dp"
         android:layout_marginBottom="20dp"
-        android:background="@drawable/background"
+        android:background="@drawable/sky_background_for_egoya"
         android:text="next"
-        android:textColor="@color/colorWhite" />
+        android:textColor="#000"
+        android:textStyle="bold"/>
 </RelativeLayout>

@@ -3,13 +3,22 @@
     xmlns:app="http://schemas.android.com/apk/res-auto"
     android:layout_width="match_parent" android:layout_height="match_parent">
 
-    <ImageView
-        android:id="@+id/slide_image"
-        android:layout_width="142dp"
-        android:layout_height="130dp"
-        android:layout_centerHorizontal="true"
-        android:layout_marginTop="100dp"
-        app:srcCompat="@drawable/img_eat" />
+    <RelativeLayout
+        android:id="@+id/image_relative"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true">
+
+
+        <ImageView
+            android:id="@+id/slide_image"
+            android:layout_width="match_parent"
+            android:layout_height="146dp"
+            android:layout_marginTop="100dp"
+            app:srcCompat="@drawable/img_eat"
+            android:layout_centerHorizontal="true"/>
+
+    </RelativeLayout>
 
     <TextView
         android:id="@+id/slide_heading"
@@ -18,9 +27,9 @@
         android:text="@string/eat_header"
         android:textAlignment="center"
         android:textStyle="bold"
-        android:textSize="20sp"
-        android:textColor="@color/colorWhite"
-        android:layout_below="@id/slide_image"
+        android:textSize="25sp"
+        android:textColor="#000"
+        android:layout_below="@id/image_relative"
         android:layout_centerHorizontal="true"
         android:layout_marginTop="50dp"/>
 
@@ -31,7 +40,9 @@
         android:layout_below="@id/slide_heading"
         android:text="@string/eat_body"
         android:padding="35dp"
-        android:textColor="@color/colorTransparentWhite"
+        android:textSize="15sp"
+        android:textStyle="bold"
+        android:textColor="#022"
         android:textAlignment="center"
         android:layout_centerHorizontal="true"
         android:layout_marginTop="20dp"

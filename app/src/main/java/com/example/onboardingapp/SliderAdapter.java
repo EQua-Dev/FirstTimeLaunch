@@ -25,29 +25,29 @@ public class SliderAdapter extends PagerAdapter {
 //    we create an array to contain the icons of all the slides
     public int[] slide_images = {
 
-            R.drawable.img_eat,
-            R.drawable.img_sleep,
-            R.drawable.img_code
+            R.drawable.collect_for_egoya_gender_neutral,
+            R.drawable.pay_for_egoya,
+            R.drawable.recycle_for_egoya
     };
 
 //     we create an array to contain the headings of all the slides
     public String[] slide_headings = {
 
-            "EAT" ,
-            "SLEEP" ,
-            "CODE"
+            "COLLECT" ,
+            "PAY" ,
+            "RECYCLE"
     };
 
 //     we create an array to contain the descriptions of all the slides
 
     public String[] slide_description = {
 
-            "this is a dummy description, another dummy sentence, then the third dummy statement, more dummy statement" +
-                    "final dummy statement",
-            "this is a dummy description, another dummy sentence, then the third dummy statement, more dummy statement" +
-                    "final dummy statement",
-            "this is a dummy description, another dummy sentence, then the third dummy statement, more dummy statement" +
-                    "final dummy statement"
+            "We collect recyclable waste products including plastics, rubber, metal to relieve you of the stress" +
+                    ". We do pickups",
+            "We pay you for the collected materials. Cool cash in relation to the quantity and quality." +
+                    " Discounts are applicable in respect to quantity and consistency",
+            "We Recycle. We reduce population in the environment and avoid global warming the way we can " +
+                    "by Reusing and Recycling of your waste materials"
     };
 
 //    we return the number of slide headings in our headings array
